@@ -25,6 +25,21 @@ export const testStyles = StyleSheet.create({
         color: "rgb(177,177,195)",
         width: "90%",
         alignSelf: "center",
-        paddingLeft: 16
+        paddingLeft: 16,
+        borderRadius: 8
+    },
+    buttonContainer: {
+        marginVertical: 40,
+        marginHorizontal: 50
+    },
+    loginButton: {
+        backgroundColor: "#0095f6",
+        alignItems: "center",
+        paddingHorizontal: 16,
+        paddingVertical: 8,
+        borderRadius: 8
+    },
+    loginText: {
+        color: "#fff"
     }
 });

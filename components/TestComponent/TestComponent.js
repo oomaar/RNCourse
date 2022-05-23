@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { View, Text, Image, TextInput, KeyboardAvoidingView } from "react-native";
+import { View, Text, Image, TextInput, KeyboardAvoidingView, Button, TouchableOpacity } from "react-native";
 import { testStyles } from "./styledTestComponent";
 
 export const TestComponent = () => {
@@ -30,6 +30,11 @@ export const TestComponent = () => {
                     value={password}
                     onChangeText={onChangePassword}
                 />
+            </View>
+            <View style={testStyles.buttonContainer}>
+                <TouchableOpacity style={testStyles.loginButton}>
+                    <Text style={testStyles.loginText}>Log in</Text>
+                </TouchableOpacity>
             </View>
         </KeyboardAvoidingView>
     )
