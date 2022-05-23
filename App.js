@@ -4,7 +4,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View>
-        <Text>Hello World</Text>
+        <Text style={styles.dummyText}>Hello World</Text>
       </View>
       <Text style={styles.dummyText}>Hello World Two</Text>
       <Button title="Click Me !" />
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
   dummyText: {
     margin: 16,
     borderWidth: 2,
-    borderColor: "red",
+    borderColor: "blue",
     padding: 16,
   },
 });
