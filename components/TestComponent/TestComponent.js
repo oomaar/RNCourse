@@ -1,28 +1,34 @@
-import { View, Text, Image } from "react-native";
+import { useState } from "react";
+import { View, Text, Image, TextInput, KeyboardAvoidingView } from "react-native";
+import { testStyles } from "./styledTestComponent";
 
 export const TestComponent = () => {
+    const [text, onChangeText] = useState("");
+    const [password, onChangePassword] = useState("");
+
     return (
-        <View style={{
-            flex: 1,
-            width: "100%",
-            justifyContent: "center"
-        }}>
-            <View style={{
-                borderWidth: 1,
-                borderColor: "red",
-                width: "100%",
-                height: "100%",
-                justifyContent: "center"
-            }}>
+        <KeyboardAvoidingView behavior="padding" style={testStyles.componentContainer}>
+            <View style={testStyles.imageContainer}>
                 <Image
                     source={require('../../assets/7a252de00b20.png')}
-                    style={{
-                        width: "100%",
-                        height: "20%",
-                        resizeMode: "contain"
-                    }}
+                    style={testStyles.instagramLogo}
                 />
             </View>
-        </View>
+            <View style={testStyles.inputContainer}>
+                <TextInput
+                    style={testStyles.input}
+                    value={text}
+                    onChangeText={onChangeText}
+                    placeholder="Phone number, username or email"
+                />
+            </View>
+            <View style={testStyles.inputContainer}>
+                <TextInput
+                    style={testStyles.input}
+                    placeholder="Password"
+                    secureTextEntry={true}
+                />
+            </View>
+        </KeyboardAvoidingView>
     )
 }
