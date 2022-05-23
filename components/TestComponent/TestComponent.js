@@ -27,6 +27,8 @@ export const TestComponent = () => {
                     style={testStyles.input}
                     placeholder="Password"
                     secureTextEntry={true}
+                    value={password}
+                    onChangeText={onChangePassword}
                 />
             </View>
         </KeyboardAvoidingView>
