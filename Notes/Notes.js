@@ -19,12 +19,14 @@
 // Review: 56:30 Styling React Native apps
 // PAUSE: 1:06:44
 
-// 23/5/2022 from: 9:10 P:M till...
+// 23/5/2022 from: 9:10 P:M till... 10:30 P:M [SOOOOO SLEEEEEEEPPPPP !! msh mrakez bgad]
 // Review: 01:06:43 Exploring layouts & flexbox
 // Review: 01:10:03 Combining React Native & flexbox
 // Review: 01:12:34 Using flexbox in React Native apps
 // Review: 01:17:42 Flexbox - a deep dive
 // Review: 01:30:02 Improving the app's layout
+// Pause: 1:37:17
+
 // TODO: 01:37:14 Handling (user) events
 // TODO: 01:44:43 Managing list data
 // TODO: 01:51:54 Platform-specific styling
