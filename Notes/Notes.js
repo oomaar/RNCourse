@@ -4,6 +4,7 @@
 // Chapters:-
 // --------
 
+// 23/5/2022 from: 1:00 A:M till 3:05 A:M
 // DONE: 00:00 Welcome!
 // Review: 00:32 What is React Native?
 // Review: 03:58 A look under the hood of React Native
@@ -15,7 +16,8 @@
 // Review: 39:52 Getting started with React Native basics
 // Review: 41:37 Exploring core components & styling
 // Review: 49:30 Working with core components
-// TODO: 56:30 Styling React Native apps
+// Review: 56:30 Styling React Native apps
+
 // TODO: 01:06:43 Exploring layouts & flexbox
 // TODO: 01:10:03 Combining React Native & flexbox
 // TODO: 01:12:34 Using flexbox in React Native apps
