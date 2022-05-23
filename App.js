@@ -4,12 +4,11 @@ import { TestComponent } from "./components";
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <View>
+      <View>
         <Text style={styles.dummyText}>Hello World</Text>
       </View>
       <Text style={styles.dummyText}>Hello World Two</Text>
-      <Button title="Click Me !" /> */}
-      <TestComponent />
+      <Button title="Click Me !" />
     </View>
   );
 }
