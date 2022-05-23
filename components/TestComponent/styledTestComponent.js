@@ -41,5 +41,19 @@ export const testStyles = StyleSheet.create({
     },
     loginText: {
         color: "#fff"
+    },
+    formOrTextContainer: {
+        flexDirection: "row",
+        alignItems: "center"
+    },
+    formOrText: {
+        color: 'rgb(177,177,195)'
+    },
+    formHorizontalLine: {
+        flex: 1,
+        height: 1,
+        borderColor: 'rgb(177,177,195)',
+        borderWidth: 1,
+        marginHorizontal: 16
     }
 });
