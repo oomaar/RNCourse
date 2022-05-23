@@ -6,11 +6,7 @@ export default function App() {
       <View>
         <Text>Hello World</Text>
       </View>
-      <Text
-        style={{ margin: 16, borderWidth: 2, borderColor: "red", padding: 16 }}
-      >
-        Hello World Two
-      </Text>
+      <Text style={styles.dummyText}>Hello World Two</Text>
       <Button title="Click Me !" />
     </View>
   );
@@ -22,5 +18,11 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
+  },
+  dummyText: {
+    margin: 16,
+    borderWidth: 2,
+    borderColor: "red",
+    padding: 16,
   },
 });
