@@ -6,6 +6,11 @@ export default function App() {
       <View>
         <Text>Hello World</Text>
       </View>
+      <Text
+        style={{ margin: 16, borderWidth: 2, borderColor: "red", padding: 16 }}
+      >
+        Hello World Two
+      </Text>
       <Button title="Click Me !" />
     </View>
   );
