@@ -1,13 +1,15 @@
 import { StyleSheet, Text, View, Button } from "react-native";
+import { TestComponent } from "./components";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <View>
+      {/* <View>
         <Text style={styles.dummyText}>Hello World</Text>
       </View>
       <Text style={styles.dummyText}>Hello World Two</Text>
-      <Button title="Click Me !" />
+      <Button title="Click Me !" /> */}
+      <TestComponent />
     </View>
   );
 }
