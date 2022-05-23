@@ -17,6 +17,7 @@
 // Review: 41:37 Exploring core components & styling
 // Review: 49:30 Working with core components
 // Review: 56:30 Styling React Native apps
+// PAUSE: 1:06:44
 
 // TODO: 01:06:43 Exploring layouts & flexbox
 // TODO: 01:10:03 Combining React Native & flexbox
