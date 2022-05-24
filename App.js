@@ -4,7 +4,8 @@ export default function App() {
   return (
     <View style={styles.appContainer}>
       <View style={styles.inputContainer}>
-        <TextInput style={styles.textInput} placeholder="What Todo ?" />
+        <Text style={styles.textInputLabel}>What Todo ?</Text>
+        <TextInput style={styles.textInput} />
         <Button title="Add Todo" />
       </View>
       <View style={styles.todosContainer}>
@@ -28,6 +29,13 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: "#ccc",
     flex: 1,
+  },
+  textInputLabel: {
+    position: "absolute",
+    top: "43%",
+    left: "2%",
+    margin: 1,
+    color: "#ccc"
   },
   textInput: {
     borderWidth: 1,
